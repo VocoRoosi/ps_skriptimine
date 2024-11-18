@@ -1,4 +1,4 @@
-﻿$students = Import-Csv -Path "C:\Users\Rose\ps_skriptimine\ages.csv"
+﻿$students = Import-Csv -Path "C:\Users\Rose\ps_skriptimine\students.csv"
 
 
 $schools = @()
