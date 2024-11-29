@@ -73,7 +73,7 @@ function NextMenu {
     }
 }
 
-# Main loop with flag control for exit
+
 $exitScript = $false
 
 while (-not $exitScript) {
@@ -98,7 +98,7 @@ while (-not $exitScript) {
         }
         5 {
             Write-Host "Exiting the script." -ForegroundColor Green
-            $exitScript = $true  # Set the flag to true to exit the loop
+            $exitScript = $true
         }
         default {
             Write-Host "Invalid selection. Please select a number between 1 and 5." -ForegroundColor Red
